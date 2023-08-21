@@ -315,9 +315,3 @@
 #josh_logo:hover {
     fill: #EBECF0;
 }
-#show_password {
-    color: rgb(var(--font-color));
-    font-family: "Noto Sans", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-}
