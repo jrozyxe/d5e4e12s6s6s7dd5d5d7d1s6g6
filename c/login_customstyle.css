@@ -307,11 +307,10 @@
 #kfl_logo:hover {
     fill: #EBECF0;
 }
-#josh_logo {
-    width: 214.09px;
-    height: 198.21px;
-    fill:#ffffff;
-}
-#josh_logo:hover {
-    fill: #EBECF0;
-}
+josh_logo {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}  
