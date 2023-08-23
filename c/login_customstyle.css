@@ -314,3 +314,4 @@ josh_logo {
     top: 50%;
     transform: translateY(-50%);
 }  
+#cap_alert_text {display:none;color:white}
