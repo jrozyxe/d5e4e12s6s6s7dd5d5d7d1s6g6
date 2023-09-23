@@ -205,3 +205,12 @@ var video_off1_2023 = new Plyr('#video_off1_2023', {
         //urls: {download: 'auth_redirect?link=PUTLINKHERE'}
       });
   setTimeout(() => {video_prac1_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
+
+  var video_prac13_2023 = new Plyr('#video_prac13_2023', {
+    markers: {enabled: false, points:[{ time: 60, label: '1 Minute' }, { time: 75, label: 'A Minute and Some' }]},
+    //ads: {enabled: false, tagUrl: 'ads.xml'},
+    tooltips: {controls: true, seek: true},
+    controls: ['play-large','rewind','play','fast-forward','current-time','duration','progress','mute','settings','pip','airplay','fullscreen'],
+        //urls: {download: 'auth_redirect?link=PUTLINKHERE'}
+      });
+  setTimeout(() => {video_prac13_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
