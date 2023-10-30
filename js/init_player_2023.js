@@ -61,6 +61,15 @@ var video_off1_2023 = new Plyr('#video_off1_2023', {
       });
   setTimeout(() => {video_off7_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
 
+  var video_off8_2023 = new Plyr('#video_off8_2023', {
+    markers: {enabled: false, points:[{ time: 60, label: '1 Minute' }, { time: 75, label: 'A Minute and Some' }]},
+    //ads: {enabled: false, tagUrl: 'ads.xml'},
+    tooltips: {controls: true, seek: true},
+    controls: ['play-large','rewind','play','fast-forward','current-time','duration','progress','mute','settings','pip','airplay','fullscreen'],
+        //urls: {download: 'auth_redirect?link=PUTLINKHERE'}
+      });
+  setTimeout(() => {video_off8_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
+
   var video_def1_2023 = new Plyr('#video_def1_2023', {
     markers: {enabled: false, points:[{ time: 60, label: '1 Minute' }, { time: 75, label: 'A Minute and Some' }]},
     //ads: {enabled: false, tagUrl: 'ads.xml'},
@@ -123,6 +132,15 @@ var video_off1_2023 = new Plyr('#video_off1_2023', {
         //urls: {download: 'auth_redirect?link=PUTLINKHERE'}
       });
   setTimeout(() => {video_def7_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
+
+  var video_def8_2023 = new Plyr('#video_def8_2023', {
+    markers: {enabled: false, points:[{ time: 60, label: '1 Minute' }, { time: 75, label: 'A Minute and Some' }]},
+    //ads: {enabled: false, tagUrl: 'ads.xml'},
+    tooltips: {controls: true, seek: true},
+    controls: ['play-large','rewind','play','fast-forward','current-time','duration','progress','mute','settings','pip','airplay','fullscreen'],
+        //urls: {download: 'auth_redirect?link=PUTLINKHERE'}
+      });
+  setTimeout(() => {video_def8_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
 
   var video_st1_2023 = new Plyr('#video_st1_2023', {
     markers: {enabled: false, points:[{ time: 60, label: '1 Minute' }, { time: 75, label: 'A Minute and Some' }]},
@@ -187,6 +205,15 @@ var video_off1_2023 = new Plyr('#video_off1_2023', {
       });
   setTimeout(() => {video_st7_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
 
+  var video_st8_2023 = new Plyr('#video_st8_2023', {
+    markers: {enabled: false, points:[{ time: 60, label: '1 Minute' }, { time: 75, label: 'A Minute and Some' }]},
+    //ads: {enabled: false, tagUrl: 'ads.xml'},
+    tooltips: {controls: true, seek: true},
+    controls: ['play-large','rewind','play','fast-forward','current-time','duration','progress','mute','settings','pip','airplay','fullscreen'],
+        //urls: {download: 'auth_redirect?link=PUTLINKHERE'}
+      });
+  setTimeout(() => {video_st8_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
+
   
   var video_2023_opener = new Plyr('#video_2023_opener', {
     markers: {enabled: false, points:[{ time: 60, label: '1 Minute' }, { time: 75, label: 'A Minute and Some' }]},
@@ -214,3 +241,12 @@ var video_off1_2023 = new Plyr('#video_off1_2023', {
         //urls: {download: 'auth_redirect?link=PUTLINKHERE'}
       });
   setTimeout(() => {video_prac13_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
+
+  var banq_2023 = new Plyr('#banq_2023', {
+    markers: {enabled: false, points:[{ time: 60, label: '1 Minute' }, { time: 75, label: 'A Minute and Some' }]},
+    //ads: {enabled: false, tagUrl: 'ads.xml'},
+    tooltips: {controls: true, seek: true},
+    controls: ['play-large','rewind','play','fast-forward','current-time','duration','progress','mute','settings','pip','airplay','fullscreen'],
+        //urls: {download: 'auth_redirect?link=PUTLINKHERE'}
+      });
+  setTimeout(() => {banq_2023.poster = 'includes/images/plyr_video_poster.png';}, 500)
