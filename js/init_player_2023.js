@@ -208,7 +208,7 @@ var video_off1_2023 = new Plyr('#video_off1_2023', {
       });
   setTimeout(() => {banq_2023.poster = 'includes/images/2024_video_banner.png';}, 500)
   
-var video_prac13_2023 = new Plyr('#vvideo_prac13_2023', {
+var video_prac13_2023 = new Plyr('#video_prac13_2023', {
     markers: {enabled: false, points:[{ time: 60, label: '1 Minute' }, { time: 75, label: 'A Minute and Some' }]},
     //ads: {enabled: false, tagUrl: 'ads.xml'},
     tooltips: {controls: true, seek: true},
