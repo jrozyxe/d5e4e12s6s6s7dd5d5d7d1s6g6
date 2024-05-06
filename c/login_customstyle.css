@@ -201,22 +201,7 @@
       display: none;
   }
   
-  #login-form > button {
-    background-color: white;
-    border: none;
-    border-radius: 0.4rem;
-    color: black;
-    padding: 0.75rem;
-    cursor: pointer;
-  }
-  #login-form > button:hover {
-    background-color: #EBECF0;
-    border: none;
-    border-radius: 0.4rem;
-    color: black;
-    padding: 0.75rem;
-    cursor: pointer;
-  }
+
   
   #login-form > .sign-up-button {
     background-color: rgb(50 50 50);
