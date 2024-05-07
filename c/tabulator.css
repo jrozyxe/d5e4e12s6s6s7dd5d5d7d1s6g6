@@ -381,7 +381,7 @@
   
   .tabulator .tabulator-footer .tabulator-calcs-holder .tabulator-row {
     display: inline-block;
-    background: #141313 !important;
+    background: #051835 !important;
   }
   
   .tabulator .tabulator-footer .tabulator-calcs-holder .tabulator-row .tabulator-col-resize-handle {
@@ -1212,7 +1212,7 @@
   
   .tabulator .tabulator-header .tabulator-col {
     border-right: none;
-    background-color: #141313;
+    background-color: #051835;
   }
   
   .tabulator .tabulator-header .tabulator-col .tabulator-col-content {
